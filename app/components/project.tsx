@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+
 function Project() {
   return (
     <div id="project">
@@ -11,19 +12,20 @@ function Project() {
               My Projects
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Here are List of Some Projects I've recently completed!
+              Here are some of the projects I've recently completed!
             </p>
           </div>
           <div className="flex flex-wrap -m-8">
-            {/* Project */}
+            {/* Project 1 */}
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">
                 <Image
-                  alt="gallery"
+                  alt="Amazon Clone"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="/assets/project1.png"
+                  src="/assets/project1.png" // Image located in the public folder
                   width={300}
                   height={300}
+                  layout="intrinsic" // Use layout intrinsic for responsive images
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -33,7 +35,8 @@ function Project() {
                     Amazon.com Clone
                   </h1>
                   <p className="leading-relaxed">
-                    Simple and Attractive Clone of Amazon.com
+                    A simple and attractive clone of Amazon.com built with
+                    React.
                   </p>
                   <Link
                     target="_blank"
@@ -44,15 +47,17 @@ function Project() {
                 </div>
               </div>
             </div>
-            {/* Project */}
+
+            {/* Project 2 */}
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">
                 <Image
-                  alt="gallery"
+                  alt="Easy Life ToDo App"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="/assets/project2.png"
+                  src="/assets/project2.png" // Image located in the public folder
                   width={300}
                   height={300}
+                  layout="intrinsic" // Use layout intrinsic for responsive images
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -62,7 +67,7 @@ function Project() {
                     Easy Life ToDo App
                   </h1>
                   <p className="leading-relaxed">
-                    Amazing Todo app to set your Daily life goals
+                    An amazing ToDo app to set and track your daily goals.
                   </p>
                   <Link
                     target="_blank"
