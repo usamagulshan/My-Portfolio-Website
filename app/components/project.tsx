@@ -15,7 +15,7 @@ function Project() {
             </p>
           </div>
           <div className="flex flex-wrap -m-8">
-          {/* Project */}
+            {/* Project */}
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">
                 <Image
@@ -35,8 +35,11 @@ function Project() {
                   <p className="leading-relaxed">
                     Simple and Attractive Clone of Amazon.com
                   </p>
-                  <Link  target="_blank" href={"https://amazon-web-clone-eta.vercel.app/"}>
-                  <p className="font-medium text-blue-500">View Project...</p>
+                  <Link
+                    target="_blank"
+                    href={"https://amazon-web-clone-eta.vercel.app/"}
+                  >
+                    <p className="font-medium text-blue-500">View Project...</p>
                   </Link>
                 </div>
               </div>
@@ -61,8 +64,11 @@ function Project() {
                   <p className="leading-relaxed">
                     Amazing Todo app to set your Daily life goals
                   </p>
-                  <Link  target="_blank" href={"https://easy-life-to-do-app.vercel.app/"}>
-                  <p className="font-medium text-blue-500">View Project...</p>
+                  <Link
+                    target="_blank"
+                    href={"https://easy-life-to-do-app.vercel.app/"}
+                  >
+                    <p className="font-medium text-blue-500">View Project...</p>
                   </Link>
                 </div>
               </div>
