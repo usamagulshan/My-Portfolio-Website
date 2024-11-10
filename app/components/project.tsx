@@ -25,7 +25,6 @@ function Project() {
                   src="/assets/project1.png" // Image located in the public folder
                   width={300}
                   height={300}
-                  layout="intrinsic" // Use layout intrinsic for responsive images
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -57,7 +56,6 @@ function Project() {
                   src="/assets/project2.png" // Image located in the public folder
                   width={300}
                   height={300}
-                  layout="intrinsic" // Use layout intrinsic for responsive images
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">

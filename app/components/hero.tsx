@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Typewriter from "typewriter-effect";
+
 
 function Hero() {
   return (
@@ -8,19 +8,8 @@ function Hero() {
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-            I am
+            I am Front End Developer
             <br className="hidden lg:inline-block" />
-            <Typewriter
-              options={{
-                strings: [
-                  "Front End Developer",
-                  "UI/UX Designer",
-                  "Game Changer",
-                ],
-                autoStart: true,
-                loop: true,
-              }}
-            />
           </h1>
           <div className="h-1 w-[100px] bg-blue-600 mb-4"></div>
           <p className="mb-6 leading-relaxed text-gray-700">
@@ -44,7 +33,6 @@ function Hero() {
             src="/assets/picture.jpg"
             width={300}
             height={300}
-            layout="intrinsic" // Automatically adjusts for responsiveness
           />
         </div>
       </div>
